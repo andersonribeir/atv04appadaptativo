@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Which fuel?</string>
+    <string name="display_name">Gas or Alcohol?</string>
+
+    <string name="display_gas">Gas Price</string>
+    <string name="display_alc">Alcohol Price</string>
+    <string name="display_but">Calculate</string>
+</resources>

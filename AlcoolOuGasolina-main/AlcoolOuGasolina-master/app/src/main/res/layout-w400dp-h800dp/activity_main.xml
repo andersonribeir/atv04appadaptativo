@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btCalcular"
+        android:layout_width="369dp"
+        android:layout_height="114dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="20dp"
+        android:backgroundTint="#F69203"
+        android:text="@string/display_but"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.811"
+        tools:ignore="MissingConstraints,TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/edAlcool"
+        android:layout_width="894dp"
+        android:layout_height="142dp"
+        android:layout_marginHorizontal="30dp"
+        android:backgroundTint="@color/black"
+        android:ems="10"
+        android:hint="@string/display_alc"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textColorHint="#000000"
+        android:textSize="64sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        tools:ignore="MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="41dp" />
+
+    <EditText
+        android:id="@+id/edGasolina"
+        android:layout_width="899dp"
+        android:layout_height="140dp"
+        android:layout_marginHorizontal="30dp"
+        android:backgroundTint="@color/black"
+        android:ems="100"
+        android:hint="@string/display_gas"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textColorHint="#000000"
+        android:textSize="64sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.393"
+        tools:ignore="MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="41dp" />
+
+    <Switch
+        android:id="@+id/swPercentual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginHorizontal="30dp"
+        android:minHeight="0dp"
+        android:padding="30dp"
+        android:text="75%"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.648"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="592dp"
+        android:layout_height="148dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/display_name"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="60sp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.271"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="184dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="963dp"
+        android:layout_height="329dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="uma bomba de gasolina ilustrando o app"
+        android:paddingVertical="10dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher_foreground"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="910dp"
+        android:layout_height="110dp"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.951"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

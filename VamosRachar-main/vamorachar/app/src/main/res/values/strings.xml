@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Vamos Rachar App</string>
+    <string name="app_exibit">Vamos Racharr!!</string>
+    <string name="input_valor">Valor Total</string>
+    <string name="input_valor1">Valor</string>
+    <string name="money">R$</string>
+    <string name="input_pessoas">Qtd. Pessoas</string>
+</resources>
